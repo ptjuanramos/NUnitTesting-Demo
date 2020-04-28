@@ -13,6 +13,8 @@ namespace NUnit.Test
         public void SetUp()
         {
             weatherForecastManager = new WeatherForecastManager(weatherForecastService);
+
+            //Mocking IWeatherForecastService
         }
 
 
