@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit", "NUnit\NUnit.csproj", "{EBF1B3B3-6ABF-4E13-B4D6-70290A81F560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnit", "NUnit\NUnit.csproj", "{EBF1B3B3-6ABF-4E13-B4D6-70290A81F560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Business", "NUnit.Business\NUnit.Business.csproj", "{5E5D1D24-A522-43E6-B126-4BE42A177333}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnit.Business", "NUnit.Business\NUnit.Business.csproj", "{5E5D1D24-A522-43E6-B126-4BE42A177333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Services", "NUnit.Services\NUnit.Services.csproj", "{E5552AD9-C797-44F7-935E-69B8DE42697A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnit.Services", "NUnit.Services\NUnit.Services.csproj", "{E5552AD9-C797-44F7-935E-69B8DE42697A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.DataAccess", "NUnit.DataAccess\NUnit.DataAccess.csproj", "{8058F17E-C293-4FBC-AB02-15236417E441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnit.DataAccess", "NUnit.DataAccess\NUnit.DataAccess.csproj", "{8058F17E-C293-4FBC-AB02-15236417E441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Test", "NUnit.Test\NUnit.Test.csproj", "{5C916E11-0D81-4036-AF58-F29FF6844306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnit.Test", "NUnit.Test\NUnit.Test.csproj", "{5C916E11-0D81-4036-AF58-F29FF6844306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit.Common", "NUnit.Common\NUnit.Common.csproj", "{F64CD9D1-99F1-4058-8DE3-FA3472830802}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5C916E11-0D81-4036-AF58-F29FF6844306}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C916E11-0D81-4036-AF58-F29FF6844306}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C916E11-0D81-4036-AF58-F29FF6844306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64CD9D1-99F1-4058-8DE3-FA3472830802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64CD9D1-99F1-4058-8DE3-FA3472830802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64CD9D1-99F1-4058-8DE3-FA3472830802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64CD9D1-99F1-4058-8DE3-FA3472830802}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

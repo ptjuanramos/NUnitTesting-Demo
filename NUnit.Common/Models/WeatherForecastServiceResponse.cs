@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NUnit.Services.Models
+namespace NUnit.Common.Models
 {
     public class WeatherForecastServiceResponse
     {
