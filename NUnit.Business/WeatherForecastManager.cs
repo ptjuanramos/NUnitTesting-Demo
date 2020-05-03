@@ -1,6 +1,8 @@
 ﻿using NUnit.Business.Interfaces;
+using NUnit.Common.Models;
 using NUnit.Services.Interfaces;
 using System;
+using System.Threading.Tasks;
 
 namespace NUnit.Business
 {
@@ -27,6 +29,15 @@ namespace NUnit.Business
             }
 
             return string.Empty;
+        }
+
+        public async Task<int?> GetTemperatureFor(string query)
+        {
+            WeatherForecastServiceResponse response = await _weatherForecastService.GetWeatherForecastFor(query);
+            if (response.current == null)
+                return null;
+
+            return response.current.temperature;
         }
     }
 }
